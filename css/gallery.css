@@ -1,0 +1,49 @@
+.page {
+	background: rgba(0,0,0,0.3);
+	position: fixed;
+	top: 0;
+	right: 0;
+	z-index:5;
+	width: 100%;
+	height: 100%;
+	display: none;
+
+}
+
+body {
+    color: white;
+    background: url("../img/Sitar_alamba.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+.content {
+	width: 84%;
+	margin: 180px auto;
+	background: rgba(0,0,0,0.4);
+	border-radius: 15px;
+	border: 0.5px ridge grey;
+}
+.enlarge {
+ width: 800px!important;
+ height: 600px!important;
+ position: fixed;
+ top: 100px;
+ left: 300px;
+ z-index: 6;
+}
+.image {
+	display: inline-block;
+	z-index: 10;
+	margin: 20px;
+}
+.image img {
+	border-radius: 10px;
+	border: 2px groove black;
+	height: 250px;
+	width: 250px;
+}
+
+.imgcontent {
+
+    padding: 20px 90px;
+}

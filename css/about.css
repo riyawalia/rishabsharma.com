@@ -1,0 +1,99 @@
+body {
+
+background: url("../img/about-background.jpg") no-repeat center center fixed;
+background: ;
+background-size: cover;
+
+}
+h1 {
+	text-align: center;
+	margin: 150px 0 40px 0;
+	font-size: 64px;
+	color: #E5E4E4;
+	color: black;
+	font-family: Trajan Pro;
+}
+
+.content {
+	width: 88%;
+	height: 16450px;
+	margin: 180px auto;
+    margin-bottom: 0px; 
+	background: rgba(0,0,0,0.4);
+	border-radius: 15px;
+	border: 0.5px ridge grey;
+
+}
+.temp {
+	text-align: center;
+	padding-top: 120px;
+	font-size: 64px;
+	color: #E5E4E4;
+	color: black;
+	font-family: Trajan Pro;
+
+}
+.para1 {
+	padding: 10px 10px;
+	width: 700px; 
+	color: #D2D2D2;
+	float: left;
+	margin-left: 60px;
+} 
+p {
+	ptext-align: center;
+	pmargin: 40px 0px;
+	color: black;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 17px;
+}
+
+.img1 img {
+	float: right;
+	margin-right: 60px;
+	margin-left: 20px;
+	
+}
+
+.para2 {
+	padding: 10px 10px;
+	width: 700px; 
+	color: #D2D2D2;
+	float: right;
+	margin-right: 60px;
+} 
+.img2 img {
+	float: left;
+	margin-left: 60px;
+	margin-right: 20px;
+}
+
+img {
+	height: 350px;
+	width: 380px;
+	border-radius: 15px;
+	border: 2px ridge black;
+	margin-top: 50px;
+
+}
+
+@media  (max-width: 700px) {
+
+
+	img {
+		height: 500px;
+		width: 500px;
+		margin: 0 auto;
+	}
+
+	.img1 img {
+		width: 500px;
+		margin: 0 auto;
+	}
+
+	header {
+		height: 300px;
+	}
+
+	}
+

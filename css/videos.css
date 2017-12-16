@@ -1,0 +1,44 @@
+body {
+	background: url("../img/icon.png") no-repeat center center fixed;
+	background-size: cover;
+	color: #C0C0C0;
+}
+
+iframe {
+	height: 370px;
+	width: 680px;
+	margin: 0 auto;
+	border-radius: 40px;
+    border: 0.5px ridge #696969; 
+	//border: 0.5px groove black;
+}
+.video {
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 5px;
+
+}
+.vidname {
+    font-family: 'Arima Madurai', cursive;
+    color: darkgoldenrod;
+    font-size: 40px;
+    padding-top: 10px;
+    font-weight: bold;
+}
+div.youtube {
+    position: fixed;
+	top: 550px;
+	right: 100px;
+	border: 0.5px groove grey;
+	border-radius: 40px;
+	padding-top: 2px;
+}
+
+.content {
+	background: rgba(0,0,0,0.5);
+	width: 75%;
+	margin: 180px auto;
+	//border: 1px ridge #D4AF37;
+	border: 0.5px ridge grey;
+	border-radius: 10px;
+}

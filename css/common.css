@@ -1,0 +1,92 @@
+@font-face {
+    font-family: Trajan Pro;
+    src: url("font/Trajan Pro Regular.ttf");
+}
+nav {
+     background: rgba(0,0,0,0.3); 
+     text-align: center;
+ }
+    nav a {
+        margin: 40px;
+        text-decoration: none;
+        font-family: 'Raleway', sans-serif;
+        font-family: 'Arima Madurai', cursive;
+        color: lightyellow;
+        font-size: 25px; 
+    }
+ nav a:link {
+    color: lightyellow;
+ }
+
+ nav a:visited {
+    color: lightyellow;
+ }
+
+ nav a:hover {
+    color: #D4AF37;
+ }
+ nav a:focus {
+    color: white;
+ }
+ nav a:active {
+    color: #D4AF37;
+ }
+ header {
+ 	background: rgba(0,0,0,0.5); 
+ 	height: 100px;
+ 	position: fixed;
+ 	top: 0;
+    left:0px;
+ 	width: 100%;
+    border-bottom: 0.5px ridge black;
+ }
+ header h3 {
+ 	font-family: 'Alex Brush', cursive;
+ 	font-size: 50px;
+ 	margin-top: -2px;
+ 	margin-left: 50px;
+ 	color: rgb(142,28,17);
+ 	color: #D4AF37;
+ }
+ audio {
+	width: 3%;
+	position: fixed;
+	top: 40px;
+	right: 60px;
+    border-radius: 15px;
+    background-color: black; 
+}
+
+@media  (max-width: 600px) {
+    nav a {
+        padding: 10px;
+        font-size: 22px;
+        
+    }
+    nav {
+        margin: 40px 0 10px 0;
+    }
+    header h3{
+        font-size: 50px;
+        margin-top: 15px;
+        margin-left: 20px;
+    }
+    header {
+        height: 150px;
+    }
+    audio {
+        top: 90px;
+        right: 40px;
+        width: 7%;
+    }
+}
+
+
+
+
+
+
+
+
+
+

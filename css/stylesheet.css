@@ -1,0 +1,42 @@
+body {
+	background: url("../img/new.jpg") no-repeat center center fixed; 
+    background-size: cover;
+}
+
+.intro {
+	margin-top: 22%;
+	text-align: center;
+}
+
+#name {
+    font-family: 'Crushed', cursive;
+    color: darkgoldenrod;
+    font-size: 140px;
+    padding-top: 0px; 
+    font-weight: lighter;
+}
+
+#description {
+    font-family: 'Arima Madurai', cursive;
+    font-weight: bold;
+    color: silver;
+    font-size: 40px;
+    color: #D4AF37;
+    margin-top: -30px; 
+    font-weight: bold; 
+}
+ @media  (max-width: 600px) {
+	.intro {
+		margin-top: 50%;
+	}
+}
+
+
+
+
+
+
+
+
+
+
